@@ -8,11 +8,28 @@
     <labelNoun>a new born</labelNoun>
     <comps>
       <li Class="HediffCompProperties_SeverityPerDay">
-        <severityPerDay>-0.0014</severityPerDay>
+        <severityPerDay>-0.00653333333</severityPerDay><!-- 14 years  compressed into 3 years -->
       </li>
     </comps>
     <stages>
+	   <li>
+        <label>Pre-Teen</label>
+        <restFallFactorOffset>0.2</restFallFactorOffset>
+        <hungerRateFactorOffset>0.7</hungerRateFactorOffset>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <setMax>0.95</setMax>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <setMax>0.95</setMax>
+          </li>
+        </capMods>
+        <vomitMtbDays>400</vomitMtbDays>
+      </li>
       <li>
+		<minSeverity>0.216</minSeverity>
         <label>Child</label>
         <restFallFactorOffset>0.4</restFallFactorOffset>
         <hungerRateFactorOffset>0.3</hungerRateFactorOffset>

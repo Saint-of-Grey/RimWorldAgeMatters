@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding ="utf-8"?>
 <ModMetaData>
-	<name>Age Matters - Puberty at 14 Years</name>
+	<name>Age Matters - Puberty at 3 Years</name>
 	<author>SuavisLupus</author>
 	<targetVersion>0.19.2009</targetVersion>
 	<url></url>
 	<description>
+		This is a "Balanaced" version of Age Matters for starting with pawns at Age 0. Your pawns will be fully grown at 3.
+		
 		This is a port of the mod Age Matters to B19 from B18 authored SuavisLupus, Mage5000
 			
 		This mod is XML Only and should work on Any Version that supports PatchOperations, only tested on b19
 		
 		How Does this work?
 			Cheakily, causes "Youth" disease, as HeDiff_WithSeverity with starts at 1.0 then degrades by a fraction per day 
-			to be gone at age 14. on a new Human BodyPart "Maturity". This should be a forever fix.
+			to be gone at age 3. on a new Human BodyPart "Maturity". This should be a forever fix.
 		
 		How does b18 Version work? 
 			Gives that disease to anything with a left hand. LeftHands dont exist as a custom body part in B19.
