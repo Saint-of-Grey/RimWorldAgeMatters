@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<ModMetaData>
+	<name>Age Matters - Puberty at 14 Years</name>
+	<author>SuavisLupus</author>
+	<targetVersion>0.19.2009</targetVersion>
+	<url></url>
+	<description>
+		This is a port of the mod Age Matters to B19 from B18 authored SuavisLupus, Mage5000
+			
+		This mod is XML Only and should work on Any Version that supports PatchOperations, only tested on b19
+		
+		How Does this work?
+			Cheakily, causes "Youth" disease, as HeDiff_WithSeverity with starts at 1.0 then degrades by a fraction per day 
+			to be gone at age 14. on a new Human BodyPart "Maturity". This should be a forever fix.
+		
+		How does b18 Version work? 
+			Gives that disease to anything with a left hand. LeftHands dont exist as a custom body part in B19.
+		
+		Origional Description: 
+		
+			makes being very young very detrimental for your abilites, built purely for allowing 0 age children in the children mod that arent immediately able to do everything.
+
+		Stages:
+			New Born 0 - 6mths:
+				completely incapeable will be bedridden and need feeding.
+			Baby 6mths - 1yr:
+				VERY slow, very sleepy, will probably spend most waking hours finding something to eat then go straight to bed.
+			Toddler 1yr - 2.5yrs:
+				slow and sleepy, more capeable than babies and has some speach capabilities.
+			Young Child 2.5yrs - 7yrs:
+				slower at moving and working than adults but mostly developed speech.
+			Child 7yrs - 12yrs:
+				slightly slower at moving and manipulating than adults.
+
+
+	</description>
+</ModMetaData>

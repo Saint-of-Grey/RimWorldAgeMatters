@@ -1,0 +1,7 @@
+<Defs>
+	<BodyPartDef>
+        <defName>Maturity</defName>
+        <label>Maturity</label>
+        <skinCovered>false</skinCovered>
+    </BodyPartDef>
+</Defs>

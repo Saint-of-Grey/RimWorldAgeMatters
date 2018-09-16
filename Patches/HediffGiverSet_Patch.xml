@@ -1,0 +1,36 @@
+<!-- Responsive and special -->
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/HediffGiverSetDef[defName="OrganicStandard"]/hediffGivers</xpath>
+		<value>
+			<li Class="HediffGiver_RandomAgeCurved">
+				<hediff>Youth</hediff>
+				<partsToAffect>
+					<li>Maturity</li>
+				</partsToAffect>
+				<ageFractionMtbDaysCurve>
+					<points>
+						<li>(0, 0.00001)</li>
+						<li>(0.05, 9999999999)</li>
+						<li>(0.6, 9999999999)</li>
+						<li>(1, 9999999999)</li>
+					</points>
+				</ageFractionMtbDaysCurve>
+			</li>
+		</value>
+	</Operation> 
+	
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BodyDef[defName = "Human"]/corePart/parts</xpath>
+    <value>
+      <li>
+        <def>Maturity</def>
+        <coverage>0.00001</coverage>
+        <depth>Inside</depth>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>
